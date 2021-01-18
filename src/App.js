@@ -2,11 +2,13 @@ import React from "react";
 import Navbar from './components/Navbar';
 import './App.css';
 import {BrowserRouter as Router} from 'react-router-dom'
+import Sidebar from "./components/Slider/index";
 
 function App() {
   return (
     <Router>
-    <Navbar></Navbar>
+       <Sidebar/>
+      <Navbar/>
     </Router>
   );
 }
