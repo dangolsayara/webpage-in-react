@@ -19,7 +19,7 @@ export const SidebarContainer= styled.aside`
 `;
 
 export const CloseIcon=styled(FaTimes)`
-    color:#fff
+    color:#fff;
 `;
 
 export const Icon =styled.div`
@@ -44,6 +44,7 @@ export const SidebarMenu =styled.ul`
 
     @media screen and (max-width:480px){
         grid-template-rows:repeat(6,60px);
+        color:red; 
     }
 `;
 
